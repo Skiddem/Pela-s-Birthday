@@ -32,8 +32,22 @@
   width:@D; height:@D/50;
 }
 
-.cake:before{
-  
+@media (max-width: 480px) {
+  .cake:after {
+    width: 240px !important;        // remove the wide base
+
+    left:30px !important;
+ 
+  }
+}
+
+@media (max-width: 768px) {
+  .cake:after {
+    width: 240px !important;        // remove the wide base
+
+    left:30px !important;
+ 
+  }
 }
 
 /* ============================================== Candle
